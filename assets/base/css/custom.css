@@ -1,0 +1,335 @@
+body { 
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+ }
+
+.image-grad:after {
+	position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,rgba(255,255,255,0.65) 100%);
+}
+
+.c-logo { 
+	background:url(../img/logo_slumber.png) no-repeat top left;
+	background-size:204px 103px;
+	width:204px;
+	height: 103px;
+	display:inline-block;
+	opacity:1;
+	transition: all 0.3s;
+}
+
+.c-logo:hover { 
+	opacity:0.8;
+}
+
+.c-layout-header .c-brand{
+	margin:8px;
+}
+
+.c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
+	margin:-7px;
+}
+
+.c-layout-header .c-navbar .c-mega-menu.c-fonts-bold > .nav.navbar-nav > li > .c-link {
+	font-weight: 400;
+	font-size: 14px;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	color:rgba(255,255,255,0.7);
+}
+
+
+
+
+
+.c-btn-mainme {
+	background-image: linear-gradient(0deg, #79E8EB 0%, #3497FD 100%);
+	box-shadow: 0 0 20px 3px rgba(79,181,253,0.69);
+	background-color:#3497FD;
+	border-radius: 100px;
+	border:0;
+	color:rgba(255,255,255,1);
+	padding:16px 24px;
+	transition: all 0.3s;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+.c-btn-mainme:hover, .c-btn-mainme:active, .c-btn-mainme:focus{
+
+	color:rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px 3px rgba(79,181,253,0.3);
+		transition: all 0.3s;
+}
+
+.c-bg-grad {
+	background-image: linear-gradient(-180deg, #3597FC 0%, #3A9EFD 58%, #90FBFF 86%, #FFFFFF 86%, #FFFFFF 100%);
+}
+
+.c-font-small {
+	font-size:15px;
+	line-height: 160%;
+
+}
+
+.tab-white {
+	background:rgba(255,255,255,0.2);
+	padding:10px 20px;
+}
+
+.c-content-product-1 .row .c-body > .c-row {
+	margin-left:-50px;
+}
+
+.c-content-product-1 .row .c-body > .c-row > li {
+	padding:10px;
+	margin:0;
+}
+
+.c-content-product-1 .row .c-body > .c-row > li:last-child {
+	padding:10px;
+	margin:0;
+}
+
+
+.c-content-product-1 .row .c-body > .c-row > li > div > h4  {
+	font-size:20px;
+	padding-bottom:10px;
+}
+
+
+.phone-center { 
+	position:absolute;
+	left:50%;
+
+ }
+
+.phone-image {
+	background:url(../img/image_phone.png) no-repeat top left;
+	width:308px;
+	height:624px;
+	display:block;
+	
+}
+
+.phone-leftme {
+	position:relative;
+	left:-50%;
+}
+
+.icon-logo {
+	width:100%;
+	height:60px;
+}
+
+.logo-helix {
+	background:url(../img/logo_helix.png) no-repeat center center;
+}
+
+.logo-exp {
+	background:url(../img/logo_exp.png) no-repeat center center;
+}
+
+	.c-leftme {
+		text-align:left;
+	}
+
+.margin0auto {
+	margin:0 auto;
+}
+
+.c-layout-footer.c-layout-footer-1 .c-prefooter .c-feedback form .form-control {
+	border-color:rgba(255,255,255,0.2);
+}
+
+
+
+.c-btn-border-1x.c-btn-purple{
+	border-color:#1C0035;
+	color:#1C0035;
+}
+
+.c-btn-border-1x.c-btn-purple:hover {
+	background:#1C0035;
+	border-color:#1C0035;
+}
+
+
+.c-content-pricing-1.c-opt-1 .c-content > .c-row.c-type {
+	color:#1A0639;
+}
+
+
+.c-layout-header .c-navbar .c-mega-menu.c-fonts-bold > .nav.navbar-nav > li > .c-link:before {
+	display:none;
+}
+
+
+.cc-card {
+	background: rgba(255,255,255,0.2);
+	padding:30px;
+	margin-bottom:60px;
+	width:300px;
+	
+}
+
+.cc-right {
+	top:100px;
+	float:right;
+	position:relative;
+	
+}
+
+.cc-left {
+	top:100px;
+	float:left;
+	position:relative;
+	
+
+}
+.c-font-purple {
+  color: #1A0639 !important; }
+  .c-font-purple small {
+    color: #1A0639 !important; }
+
+.c-font-purple-hover:hover {
+  color: #b771b0 !important; }
+
+	.c-bg-grad2 {
+		background-image: linear-gradient(-180deg, #00ACAD 0%, #31B5B3 51%, #81DCD8 91%, #FFFFFF 91%, #FFFFFF 100%);
+		min-height: 700px;
+	}
+
+	.containers {
+		width:970px;
+		margin:0;
+	}
+
+@media only screen  and (max-width : 1186px) {
+	.c-layout-header .c-navbar .c-mega-menu.c-fonts-bold > .nav.navbar-nav > li > .c-link {
+		font-size:11px;
+		letter-spacing:0;
+	}
+
+}
+
+
+@media only screen  and (max-width : 992px) {
+	.c-layout-header .c-brand {
+		margin: 20px 10px 20px 20px;
+	}
+
+	.phone-center {
+		position:static;
+
+	}
+
+	.phone-leftme {
+		position:static;
+		margin:0 auto;
+	}
+	.containers {
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.c-content-product-1 .row .c-body > .c-row {
+		margin-left:0px;
+	}
+
+	.c-logo {
+		background:url(../img/logo_slumber_mobile.png) no-repeat top left;
+		width:160px;
+		height:32px;
+	}
+
+	.c-bg-grad {
+		background-image: linear-gradient(0deg, #91FDFF 0%, #3A9EFD 32%, #3497FD 100%);
+	}
+
+	.c-leftme {
+		text-align:center;
+	}
+
+
+
+	.c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
+		margin: 20px 10px 20px 20px;
+	}
+
+
+
+	.cc-card {
+		background: rgba(255,255,255,0.2);
+		padding:30px;
+		margin-bottom:20px;
+		width:100%;
+
+	}
+
+	.c-bg-grad2 {
+		background-image: linear-gradient(-180deg, #00ACAD 0%, #31B5B3 51%, #81DCD8 100%);
+
+	}
+	
+	.cc-left, 
+	.cc-right {
+		float:none;
+		position:static;
+		top:0;
+		margin:0 auto;
+	}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+	.phone-image {
+		background:url(../img/image_phone@2x.png) no-repeat top left;
+		background-size:308px 624px;
+	}
+
+	.logo-helix {
+		background:url(../img/logo_helix@2x.png) no-repeat center center;
+		background-size:208px 35px;		
+	}
+
+	.logo-exp {
+		background:url(../img/logo_exp@2x.png) no-repeat center center;
+		background-size:221px 45px;			
+	}
+
+	.c-logo {
+		background:url(../img/logo_slumber_mobile@2x.png) no-repeat center center;
+		background-size:160px 32px;		
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
